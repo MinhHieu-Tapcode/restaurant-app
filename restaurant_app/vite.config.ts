@@ -17,6 +17,9 @@ function figmaAssetResolver() {
 }
 
 export default defineConfig({
+  // 👇 THÊM DÒNG NÀY (sửa tên repo cho đúng)
+  base: '/restaurant-app/',  // ← THÊM VÀO
+  
   plugins: [
     figmaAssetResolver(),
     // The React and Tailwind plugins are both required for Make, even if
